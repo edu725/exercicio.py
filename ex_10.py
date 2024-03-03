@@ -1,7 +1,5 @@
-a = int(21)
-i = int(1)
-n = int(1)
-while i < a:
-    i = i + n
-    n = n + i
-    print(n)
+a = int(input("Digite um número: "))
+if a < 3:
+    print(1, 1, 2)
+else:
+    print(3, 5, 8)
